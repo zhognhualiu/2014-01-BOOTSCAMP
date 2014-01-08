@@ -1,3 +1,7 @@
+
+
+
+
 w = read.table('1999_01_19', header=FALSE, comment.char ="#", sep = "\t")
 w
 summary(w)
@@ -14,6 +18,5 @@ names(w) <- hd
 par(mfrow = c(2, 2))
 plot(w$Time, w[, "Temp [degC]"], type = "b", xlab = "Time", ylab = 
 "Temp")
-
 
 
